@@ -48,11 +48,11 @@ Hasil dari proyek ini adalah:
 Implementasi dari hasil ini dapat digunakan oleh perusahaan e-commerce untuk membuat keputusan berbasis data, seperti menyesuaikan strategi pemasaran, meningkatkan efisiensi pengiriman, dan personalisasi layanan, dengan memanfaatkan dashboard Kibana untuk pemantauan real-time.
 
 ## Reference
-Kaggle Dataset: https://www.kaggle.com/datasets/logiccraftbyhimanshi/e-commerce-analytics-swiggy-zomato-blinkit
-Apache Airflow Documentation: https://airflow.apache.org/docs/
-Great Expectations Documentation: https://docs.greatexpectations.io/
-Pandas Documentation: https://pandas.pydata.org/docs/
-Elasticsearch Documentation: https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html
-Kibana Documentation: https://www.elastic.co/guide/en/kibana/current/index.html
+Kaggle Dataset: https://www.kaggle.com/datasets/logiccraftbyhimanshi/e-commerce-analytics-swiggy-zomato-blinkit     
+Apache Airflow Documentation: https://airflow.apache.org/docs/      
+Great Expectations Documentation: https://docs.greatexpectations.io/        
+Pandas Documentation: https://pandas.pydata.org/docs/       
+Elasticsearch Documentation: https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html     
+Kibana Documentation: https://www.elastic.co/guide/en/kibana/current/index.html     
 
 ---
