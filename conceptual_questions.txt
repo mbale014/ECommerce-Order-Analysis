@@ -1,0 +1,20 @@
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+Jawaban : NoSQL adalah tipe database yg tidak menggunakan tabular database seperti yg digunakan RDBMS seperti postgresql, dsb. NoSQL dapat dipakai untuk menyimpan data terstruktur maupun semi-terstruktur.
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+Jawaban : NoSQL dan RDBMS memilik karakteristik yang berbeda, sehingga pemilihan nya harus berdasarkan kebutuhan aplikasi. Pakai NoSQL saat data terstuktur atau semi terstruktur, membutuhkan skalabilitas besar di banyak server seperti media sosial atau IoT, kecepatan tinggi untuk data besar. Lalu, pakai RDBMS saat data terstruktur dimana data memiliki hubungan yg jelas (primary key dan foreign key), Stuktur data konsisten dan tidak sering berubah, Query yg kompleks seperti GROUP BY, JOIN .
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+Jawaban :
+- MongoDB => Model data dokumen yg fleksibel yaitu JSON/BSON, karena hal ini MongoDB memungkinkan penyimpanan data dengan skema dinamis, skalabilitas horizontal untuk menangani volume data yg besar.
+- Redis => Performa yg cepat karena di proses di memory (in-memory), cocok untuk aplikasi real-time seperti leaderboard.
+
+4. Jelaskan apa yang Anda ketahui dari Airflow menggunakan pemahaman dan bahasa Anda sendiri !
+Jawaban : Apache Airflow adalah platform open-source yang digunakan untuk mengatur dan menjalankan workflow secara otomatis. Airflow membantu memudahkan dalam serangkaian task dalam membuat, menjadwalkan, dan memantau nya. Airflow digunakan pada task yg repetitif atau berulang-ulang.
+
+5. Jelaskan apa yang Anda ketahui dari Great Expectations menggunakan pemahaman dan bahasa Anda sendiri !
+Jawaban : Great expectations adalah tool open source yg digunakan untuk memvalidasi data untuk memastikan kualitas data dengan cara yg sederhana. Great expectations juga dapat dipakai untuk mendokumentasikan dan memantau data. Dengan GX, memeriksa data yg repetitif tidak perlu dilakukan secara manual dan melelahkan, sehingga proses akan berjalan otomatis dengan membuat expectations.
+
+6. Jelaskan apa yang Anda ketahui dari Batch Processing menggunakan pemahaman dan bahasa Anda sendiri (Definisi, Contoh Kasus Penggunaan, Tools, dll) !
+Jawaban : Batch Processing adalah cara untuk memproses data dalam jumlah besar secara berkelompok (batch) pada waktu tertentu, bukan langsung satu per satu saat data masuk. Contoh penggunaan, pemberian gaji karyawan yaitu saat perusahaan mengumpulkan data jam kerja karyawan selama sebulan, lalu menghitung gaji dan mengirimkan slip gaji pada tanggal tertentu. Tools untuk batch processing ada apache airflow dan apache spark.
+

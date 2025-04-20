@@ -1,0 +1,14 @@
+URL Dataset=https://www.kaggle.com/datasets/logiccraftbyhimanshi/e-commerce-analytics-swiggy-zomato-blinkit/data
+
+# Syntax DDL pembuatan table
+## Connect to PostgreSQL docker
+psql -h localhost -p 5434 -U airflow -d airflow
+
+
+## Create table
+CREATE TABLE table_m3("Order ID" VARCHAR(50) PRIMARY KEY, "Customer ID" VARCHAR(50), "Platform" VARCHAR(100), "Order Date & Time" VARCHAR(50), "Delivery Time (Minutes)" INT, "Product Category" VARCHAR(100), "Order Value (INR)" INT, "Customer Feedback" VARCHAR(255), "Service Rating" INT, "Delivery Delay" VARCHAR(50), "Refund Requested" VARCHAR(50));
+
+# Syntax DML insert data ke database
+
+## Data Input
+\copy table_m3("Order ID", "Customer ID", "Platform", "Order Date & Time", "Delivery Time (Minutes)", "Product Category","Order Value (INR)", "Customer Feedback", "Service Rating", "Delivery Delay", "Refund Requested" ) FROM "D:\FTDS hacktiv8\Phase 2\Challenge and assigment\project-m3\P2M3_muhammad_iqbal_data_raw.csv" DELIMITER ',' CSV HEADER;
