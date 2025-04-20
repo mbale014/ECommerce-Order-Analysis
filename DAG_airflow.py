@@ -1,9 +1,8 @@
 '''
 =================================================
-Milestone 3
+DAG airflow program ecommerce order project
 
 Nama  : Muhammad iqbal
-Batch : FTDS-040-RMT
 
 Program ini dibuat untuk melakukan automatisasi data cleaning dengan mengambil data dari postgresql.
 Adapun dataset yang dipakai adalah dataset mengenai performa pengiriman jasa pesan antar platform luar negeri.
