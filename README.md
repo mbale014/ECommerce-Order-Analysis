@@ -30,12 +30,12 @@ Project ini mengenai analisis data e-commerce untuk memahami perilaku konsumen m
 - Data Validation: Menggunakan Great Expectations untuk memvalidasi integritas dan kualitas data.
 - Exploratory Data Analysis (EDA): Melakukan analisis statistik deskriptif dan visualisasi untuk mengidentifikasi pola, tren, dan anomali dalam perilaku konsumen.
 - ETL Pipeline: Menggunakan Apache Airflow untuk mengotomatisasi proses ekstraksi, transformasi, dan loading data ke dalam database.
-- Reporting: Menyusun laporan yang mencakup wawasan demografis, preferensi produk, waktu pembelian, dan rekomendasi untuk meningkatkan kepuasan konsumen dengan ElasticSearch + kibana.
+- Reporting: Menyusun laporan yang mencakup wawasan demografis, preferensi produk, waktu pembelian, dan rekomendasi untuk meningkatkan kepuasan konsumen dengan ElasticSearch + kibana + powerbi.
 
 ## Stacks
 - **Bahasa Pemrograman**: Python, SQL
 - **Library**: Pandas, NumPy, Great Expectations
-- **Deployment**: Apache Airflow , ElasticSearch dan kibana
+- **Deployment**: Apache Airflow , ElasticSearch, kibana dan Power BI
 
 ## Hasil & Implementasi  
 Hasil dari proyek ini adalah:
