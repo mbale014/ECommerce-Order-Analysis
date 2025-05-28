@@ -11,6 +11,7 @@ Data Engineering dan Analisis Perilaku Konsumen E-commerce Pesan Antar
 7. Great_Expectations.ipynb - File ini berisi Expectations yang digunakan untuk melakukan validasi data
 8. README.md - File ini berisi informasi tentang project kali ini
 9. /images - Folder ini berisi daftar screenshot
+10. /report - Folder ini berisi hasil report dengan power bi
 
 ## Problem Background
 Di era modern saat ini, masyarakat di berbagai belahan dunia sudah banyak yg memilih platform online ecommerce sebagai sarana belanja online mereka. Aplikasi layanan pesan antar bahan makanan online seperti Swiggy, Zomato, Blinkit, dsb terus berlomba - lomba mencari ide dan kreatifitas yg akan menuju ke profit maksimal. Hal ini menunjukkan bahwa untuk mencapai tujuan tersebut, perusahaan perlu mengerti apa saja yg konsumen inginkan seperti produk yg dibeli, waktu pembelian, dan bagaimana cara meningkatkan kepuasan konsumen.
